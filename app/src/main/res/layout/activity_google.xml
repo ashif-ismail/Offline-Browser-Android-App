@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="as.hif.offlinebrowser.WebFragment"
+    android:gravity="center_vertical|center_horizontal">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+  <!--  <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/googtext"
+        android:hint="Enter Google search query..."
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:singleLine="true"
+        /> -->
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/gwebView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:id="@+id/editText1"
+        android:singleLine="true"
+        android:background="@drawable/edit_text_corner"
+        android:layout_marginTop="185dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Search   "
+        android:onClick="forwardRequest"
+        android:id="@+id/btn_googlesearch"
+        android:backgroundTint="@color/myPrimaryDarkColor"
+        android:textColor="@color/white"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true" />
+
+    <!-- android:layout_below="@+id/googtext" -->
+</RelativeLayout>

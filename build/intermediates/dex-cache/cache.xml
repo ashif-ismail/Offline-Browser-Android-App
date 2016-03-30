@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/almukthar/Documents/project copy/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-22f53d260d2cb29c02e8b84df0d0b564fe2952af.jar" />
+    </item>
+    <item
+        jar="/home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="/home/almukthar/Documents/project copy/app/build/intermediates/pre-dexed/debug/classes-e4ffc8fc56cc84d76a122fad4519432a10e3b327.jar" />
+    </item>
+    <item
+        jar="/home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="/home/almukthar/Documents/project copy/app/build/intermediates/pre-dexed/debug/classes-75962035ad05ed350895e6ccf0ebe8370191cab4.jar" />
+    </item>
+    <item
+        jar="/home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/home/almukthar/Documents/project copy/app/build/intermediates/pre-dexed/debug/classes-23ab11c8aad0783ce926b1e1855fb7c0403aae63.jar" />
+    </item>
+    <item
+        jar="/home/almukthar/Android/Sdk/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/almukthar/Documents/project copy/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-dc4bc39c8a7dbc87acca7f0fe5d616590ee7e737.jar" />
+    </item>
+    <item
+        jar="/home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/almukthar/Documents/project copy/app/build/intermediates/pre-dexed/debug/classes-73b02b6b0e5ec1eb3e9ea75489aaf474d1804a51.jar" />
+    </item>
+    <item
+        jar="/home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/almukthar/Documents/project copy/app/build/intermediates/pre-dexed/debug/classes-10fdf193690f419b49c70c3d431a6ca1056e6894.jar" />
+    </item>
+
+</items>

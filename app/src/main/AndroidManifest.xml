@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="as.hif.offlinebrowser" >
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".SMSListener"
+            android:exported="true" >
+            <intent-filter android:priority="999" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".GoogleActivity"
+            android:label="@string/title_activity_google"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ActivtyTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".WikiActivity"
+            android:label="@string/title_activity_wiki"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ActivtyTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="as.hif.offlinebrowser.MainActivity" />
+        </activity>
+        <activity
+            android:name=".fileListActivity"
+            android:label="@string/title_activity_saved_files"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ActivtyTheme" >
+        </activity>
+        <activity
+            android:name=".openSavedPagesActivity"
+            android:label="@string/title_activity_open_saved_pages"
+            android:parentActivityName=".fileListActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ActivtyTheme" >
+        </activity>
+        <activity
+            android:name=".FeedBackActivity"
+            android:label="@string/title_activity_feed_back"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="as.hif.offlinebrowser.MainActivity" />
+        </activity>
+        <activity android:name="as.hif.offlinebrowser.AppPreferences"
+            android:theme="@style/AppTheme"
+            android:label="Preferences"
+            android:parentActivityName=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

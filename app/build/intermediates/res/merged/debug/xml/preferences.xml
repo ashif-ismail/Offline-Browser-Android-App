@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="Extractor Type"
+        android:summary="Type of Extractor you wish to use"
+        android:key="extractorType"
+        android:defaultValue="Keep Everything Extractor"
+        android:entries="@array/listExtractor"
+        android:entryValues="@array/listValuesExtractor" />
+    <ListPreference
+        android:title="Output Mode"
+        android:summary="Output mode for the Response"
+        android:key="outputType"
+        android:defaultValue="HTML"
+        android:entries="@array/listOutputMode"
+        android:entryValues="@array/listValuesOutputMode" />
+</PreferenceScreen><!-- From: file:/home/almukthar/Documents/project%20copy/app/src/main/res/xml/preferences.xml -->

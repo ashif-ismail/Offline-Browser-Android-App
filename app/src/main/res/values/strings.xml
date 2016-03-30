@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Offline Browser</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_google">Search Google</string>
+    <string name="action_save">Save this Page</string>
+    <string name="action_new">New Page</string>
+    <string name="About_app">About Us</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_wiki">Browse Wikipedia</string>
+    <string name="title_activity_about">About Offline Browser</string>
+    <string name="title_activity_settings">Preferences</string>
+    <string name="title_activity_saved_files">Saved Websites</string>
+    <string name="title_activity_open_saved_pages">Saved Websites</string>
+    <string name="hint_name">Your Name</string>
+    <string name="hint_email">Email ID</string>
+    <string name="txt_yo_yo">Email ID</string>
+    <string name="hint_feedback">Feedback or Suggestions</string>
+    <string name="title_activity_feed_back">Send Feedback</string>
+    <string name="title">Send Us a feedback</string>
+    <string name="off_content">Offline Browser is an Android Based web Browser that lets you to browse Internet without the use of Data or WiFi !\n\nOffline Browser is Developed and Designed by Abdul Ashif and Rohan D\'Souza of Final Year Information Science and Engineering Under the Guidance of Dr.Antony P.J,for the Final Year Project 2015-2016</string>
+    <string name="description">We Would like to hear it from you,be it feedback or suggestions.</string>
+</resources>

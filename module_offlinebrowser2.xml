@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_offlinebrowser2" default="compile.module.offlinebrowser2">
+  <dirname property="module.offlinebrowser2.basedir" file="${ant.file.module_offlinebrowser2}"/>
+  
+  <property name="module.jdk.home.offlinebrowser2" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.offlinebrowser2" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.offlinebrowser2" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.offlinebrowser2" value="-encoding windows-1252 -source 1.7 ${compiler.args}"/>
+  
+  <property name="offlinebrowser2.output.dir" value="${module.offlinebrowser2.basedir}/build/classes/production/OfflineBrowser2"/>
+  <property name="offlinebrowser2.testoutput.dir" value="${module.offlinebrowser2.basedir}/build/classes/test/OfflineBrowser2"/>
+  
+  <path id="offlinebrowser2.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="offlinebrowser2.module.production.classpath">
+    <path refid="${module.jdk.classpath.offlinebrowser2}"/>
+  </path>
+  
+  <path id="offlinebrowser2.runtime.production.module.classpath">
+    <pathelement location="${offlinebrowser2.output.dir}"/>
+  </path>
+  
+  <path id="offlinebrowser2.module.classpath">
+    <path refid="${module.jdk.classpath.offlinebrowser2}"/>
+    <pathelement location="${offlinebrowser2.output.dir}"/>
+  </path>
+  
+  <path id="offlinebrowser2.runtime.module.classpath">
+    <pathelement location="${offlinebrowser2.testoutput.dir}"/>
+    <pathelement location="${offlinebrowser2.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.offlinebrowser2">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.offlinebrowser2">
+    <patternset refid="excluded.from.module.offlinebrowser2"/>
+  </patternset>
+  
+  
+  <target name="compile.module.offlinebrowser2" depends="compile.module.offlinebrowser2.production,compile.module.offlinebrowser2.tests" description="Compile module OfflineBrowser2"/>
+  
+  <target name="compile.module.offlinebrowser2.production" depends="register.custom.compilers" description="Compile module OfflineBrowser2; production classes"/>
+  
+  <target name="compile.module.offlinebrowser2.tests" depends="register.custom.compilers,compile.module.offlinebrowser2.production" description="compile module OfflineBrowser2; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.offlinebrowser2" description="cleanup module">
+    <delete dir="${offlinebrowser2.output.dir}"/>
+    <delete dir="${offlinebrowser2.testoutput.dir}"/>
+  </target>
+</project>

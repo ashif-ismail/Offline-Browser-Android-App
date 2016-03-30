@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="as.hif.offlinebrowser"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="as.hif.offlinebrowser.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="as.hif.offlinebrowser.SMSListener"
+            android:exported="true" >
+            <intent-filter android:priority="999" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="as.hif.offlinebrowser.GoogleActivity"
+            android:label="@string/title_activity_google"
+            android:parentActivityName="as.hif.offlinebrowser.MainActivity"
+            android:theme="@style/ActivtyTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="as.hif.offlinebrowser.WikiActivity"
+            android:label="@string/title_activity_wiki"
+            android:parentActivityName="as.hif.offlinebrowser.MainActivity"
+            android:theme="@style/ActivtyTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="as.hif.offlinebrowser.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="as.hif.offlinebrowser.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="as.hif.offlinebrowser.MainActivity" />
+        </activity>
+        <activity
+            android:name="as.hif.offlinebrowser.fileListActivity"
+            android:label="@string/title_activity_saved_files"
+            android:parentActivityName="as.hif.offlinebrowser.MainActivity"
+            android:theme="@style/ActivtyTheme" >
+        </activity>
+        <activity
+            android:name="as.hif.offlinebrowser.openSavedPagesActivity"
+            android:label="@string/title_activity_open_saved_pages"
+            android:parentActivityName="as.hif.offlinebrowser.fileListActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="as.hif.offlinebrowser.AboutUsActivity"
+            android:parentActivityName="as.hif.offlinebrowser.MainActivity"
+            android:theme="@style/ActivtyTheme" >
+        </activity>
+        <activity
+            android:name="as.hif.offlinebrowser.FeedBackActivity"
+            android:label="@string/title_activity_feed_back"
+            android:parentActivityName="as.hif.offlinebrowser.MainActivity"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="as.hif.offlinebrowser.MainActivity" />
+        </activity>
+        <activity
+            android:name="as.hif.offlinebrowser.AppPreferences"
+            android:label="Preferences"
+            android:parentActivityName="as.hif.offlinebrowser.MainActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest>

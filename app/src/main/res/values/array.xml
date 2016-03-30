@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listExtractor">
+        <item>Article Extractor</item>
+        <item>Keep Everything Extractor</item>
+    </string-array>
+    <string-array name="listValuesExtractor">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="listOutputMode">
+        <item>Plain Text</item>
+        <item>HTML</item>
+        <item>JSON</item>
+    </string-array>
+    <string-array name="listValuesOutputMode">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

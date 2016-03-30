@@ -1,0 +1,194 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:2:1-92:12
+	xmlns:android
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml
+		INJECTED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml
+		INJECTED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml
+		INJECTED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:5:5-70
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:5:22-67
+uses-permission#android.permission.SEND_SMS
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.READ_SMS
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:9:22-78
+application
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:11:5-90:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:22.0.0] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:13:9-43
+	android:theme
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:15:9-40
+activity#as.hif.offlinebrowser.MainActivity
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:16:9-25:20
+	android:windowSoftInputMode
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:19:13-54
+	android:label
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:17:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:23:27-74
+receiver#as.hif.offlinebrowser.SMSListener
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:27:9-35:20
+	android:exported
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:28:13-40
+intent-filter#android.intent.category.DEFAULT+android.provider.Telephony.SMS_RECEIVED
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:30:13-34:29
+	android:priority
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:30:28-50
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:31:25-79
+category#android.intent.category.DEFAULT
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:33:27-73
+activity#as.hif.offlinebrowser.GoogleActivity
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:37:9-43:20
+	android:windowSoftInputMode
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:42:13-54
+	android:label
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:39:13-58
+	android:theme
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:41:13-48
+	android:parentActivityName
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:40:13-55
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:38:13-43
+activity#as.hif.offlinebrowser.WikiActivity
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:44:9-50:20
+	android:windowSoftInputMode
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:49:13-54
+	android:label
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:46:13-56
+	android:theme
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:48:13-48
+	android:parentActivityName
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:47:13-55
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:45:13-41
+activity#as.hif.offlinebrowser.SettingsActivity
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:51:9-58:20
+	android:label
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:53:13-60
+	android:parentActivityName
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:54:13-55
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:52:13-45
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:55:13-57:70
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:56:17-63
+	android:value
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:57:17-67
+activity#as.hif.offlinebrowser.fileListActivity
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:59:9-64:20
+	android:label
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:61:13-63
+	android:theme
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:63:13-48
+	android:parentActivityName
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:62:13-55
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:60:13-45
+activity#as.hif.offlinebrowser.openSavedPagesActivity
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:65:9-70:20
+	android:label
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:67:13-68
+	android:theme
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:69:13-44
+	android:parentActivityName
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:68:13-59
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:66:13-51
+activity#as.hif.offlinebrowser.AboutUsActivity
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:71:9-75:20
+	android:theme
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:74:13-48
+	android:parentActivityName
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:73:13-55
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:72:13-44
+activity#as.hif.offlinebrowser.FeedBackActivity
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:76:9-84:20
+	android:label
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:78:13-61
+	android:theme
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:80:13-44
+	android:parentActivityName
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:79:13-55
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:77:13-45
+activity#as.hif.offlinebrowser.AppPreferences
+ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:85:9-89:20
+	android:label
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:87:13-40
+	android:theme
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:86:13-44
+	android:parentActivityName
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:88:13-55
+	android:name
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:85:19-70
+uses-sdk
+INJECTED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:22.0.0] /home/almukthar/Documents/project copy/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml
+		INJECTED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml
+		INJECTED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml

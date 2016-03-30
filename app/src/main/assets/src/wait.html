@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>jQuery Material Spinner Demo</title>
+<style>
+body { background-color:#ECF0F1; padding:10em; text-align:center;}
+</style>
+
+
+</head>
+<body>
+<main>
+<div class="jquery-script-ads" style="margin:30px auto;"><script type="text/javascript"><!--
+</script>
+</div>
+<style>
+h6 {
+position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+color:#004D40;
+margin: 0 auto;
+}
+</style>
+<div id="js-two"></div>
+<h6>Please&nbsp;Wait&nbsp;Until&nbsp;We&nbsp;Fetch&nbsp;You&nbsp;The&nbsp;Page,<br/>The&nbsp;Time&nbsp;May&nbsp;Vary&nbsp;Depending&nbsp;On&nbsp;the&nbsp;Page&nbsp;You&nbsp;Request.</h6>
+</main>
+<script src="../dist/js/jquery-1.11.3.min.js"></script>
+<script src="../dist/js/jquery.spinner.js"></script>
+
+<script>
+  $(function() {
+    $('#js-two').spinner({
+      strokeWidth: 3,
+      color: '#004D40',
+	  radius: 20
+    });
+  });
+</script>
+</body>
+</html>
