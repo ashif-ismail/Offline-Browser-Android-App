@@ -78,9 +78,6 @@ public  class fileListActivity extends AppCompatActivity implements AdapterView.
                 for (int i = 0; i < length; i++) {
                     File f = fileArr[i];
                     flLst.add(f.getName());
-
-
-
                 }
             }
 

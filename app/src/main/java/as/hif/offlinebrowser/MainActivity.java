@@ -9,6 +9,7 @@ import android.content.IntentFilter;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.Environment;
+import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
@@ -75,6 +76,9 @@ public class MainActivity extends AppCompatActivity
         mNavigationDrawerFragment.setup(R.id.fragment_drawer, (DrawerLayout) findViewById(R.id.drawer), mToolbar);
         // populate the navigation drawer
         mNavigationDrawerFragment.setUserData("Offline Browser", "Access Internet Without Internet");
+
+        PreferenceManager.setDefaultValues(this, R.xml.preferences, true);
+
      /*   Transition exitTrans = new Explode();
         getWindow().setExitTransition(exitTrans);
 
@@ -183,7 +187,6 @@ public class MainActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         EditText web = (EditText) findViewById(R.id.webtext);
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_save) {
             if(web.getText().toString().isEmpty()){
                 Toast.makeText(getApplicationContext(),"Nothing to Save",Toast.LENGTH_SHORT).show();
@@ -197,7 +200,7 @@ public class MainActivity extends AppCompatActivity
     public void save() {
         EditText web = (EditText) findViewById(R.id.webtext);
         keyWord = web.getText().toString();
-        String fileName = "Saved Webpage of " + keyWord +".txt";
+        String fileName = "Saved Webpage of " + keyWord;
         String toSave = "<html><head><h3>" + keyWord + "</h3></head></html>";
         toSave += webData;
         try
@@ -217,6 +220,5 @@ public class MainActivity extends AppCompatActivity
         {
             e.printStackTrace();
         }
-
     }
 }

@@ -9,7 +9,6 @@
     <string-array name="listOutputMode">
         <item>Plain Text</item>
         <item>HTML</item>
-        <item>JSON</item>
     </string-array>
     <string-array name="listValuesExtractor">
         <item>1</item>
@@ -18,7 +17,6 @@
     <string-array name="listValuesOutputMode">
         <item>1</item>
         <item>2</item>
-        <item>3</item>
     </string-array>
     <!-- From: file:/home/almukthar/Documents/project%20copy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>

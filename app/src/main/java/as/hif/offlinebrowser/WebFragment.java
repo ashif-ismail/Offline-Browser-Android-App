@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
+import android.preference.ListPreference;
 import android.preference.PreferenceManager;
 import android.telephony.SmsManager;
 import android.view.KeyEvent;
@@ -73,7 +74,7 @@ public class WebFragment extends Fragment {
     }
     public void textToServer(String whatToSend) throws Exception {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
-        String extractorType = sharedPreferences.getString("extractorType", "Artile Extractor");
+        String extractorType = sharedPreferences.getString("extractorType", "Article Extractor");
         String outputMode = sharedPreferences.getString("outputType", "Plain Text");
         WebView wv = (WebView) getActivity().findViewById(R.id.mwebView);
         wv.loadUrl("file:///android_asset/src/wait.html");

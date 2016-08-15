@@ -30,7 +30,7 @@ public class FeedBackActivity extends AppCompatActivity {
         String nm = name.getText().toString();
         String ms = msg.getText().toString();
 
-        feedBack = nm + ms;
+        feedBack = nm.concat(ms);
 
 
         Button fab = (Button) findViewById(R.id.fab);

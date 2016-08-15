@@ -11,11 +11,9 @@
     <string-array name="listOutputMode">
         <item>Plain Text</item>
         <item>HTML</item>
-        <item>JSON</item>
     </string-array>
     <string-array name="listValuesOutputMode">
         <item>1</item>
         <item>2</item>
-        <item>3</item>
     </string-array>
 </resources>

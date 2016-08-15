@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="as.hif.offlinebrowser.test">
+    package="as.hif.offlinebrowser.test" >
 
-    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="22" />
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for as.hif.offlinebrowser"
+        android:targetPackage="as.hif.offlinebrowser" />
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
-    <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="as.hif.offlinebrowser"
-                     android:handleProfiling="false"
-                     android:functionalTest="false"
-                     android:label="Tests for as.hif.offlinebrowser"/>
 </manifest>

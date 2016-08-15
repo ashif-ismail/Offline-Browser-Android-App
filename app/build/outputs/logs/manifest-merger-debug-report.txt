@@ -49,7 +49,7 @@ MERGED from [com.android.support:cardview-v7:22.0.0] /home/almukthar/Documents/p
 	android:allowBackup
 		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:13:9-51
 	android:theme
 		ADDED from /home/almukthar/Documents/project copy/app/src/main/AndroidManifest.xml:15:9-40
 activity#as.hif.offlinebrowser.MainActivity

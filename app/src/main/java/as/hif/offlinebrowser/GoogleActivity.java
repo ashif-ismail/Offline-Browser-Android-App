@@ -80,6 +80,7 @@ public class GoogleActivity extends AppCompatActivity {
         Display display = getWindowManager().getDefaultDisplay();
         int width = display.getWidth();
 
+        PreferenceManager.setDefaultValues(this,R.xml.preferences,true);
 
     // this code is responsible for handling incoming activity animations,disabling this feature since it crashes
         // in pre lollipop devices
@@ -193,7 +194,7 @@ public class GoogleActivity extends AppCompatActivity {
     public void save() {
         EditText ed1 = (EditText) findViewById(R.id.editText1);
         keyWord = ed1.getText().toString();
-        fileName = "Google Search for " + keyWord+".txt";
+        fileName = "Google Search for " + keyWord;
         String toSave = "<html><head><h3>" + keyWord + "</h3></head></html>";
         toSave += webData;
         try
@@ -221,17 +222,20 @@ public class GoogleActivity extends AppCompatActivity {
         Button btn = (Button) findViewById(R.id.btn_googlesearch);
         WebView wv = (WebView) findViewById(R.id.gwebView);
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        String extractorType = sharedPreferences.getString("extractorType", "Artile Extractor");
+        String extractorType = sharedPreferences.getString("extractorType", "Article Extractor");
         String outputMode = sharedPreferences.getString("outputType", "Plain Text");
         wv.loadUrl("file:///android_asset/src/wait.html");
         Toast.makeText(getApplication(), "Initiating Communication with Server", Toast.LENGTH_LONG).show();
         edt1.setVisibility(View.GONE);
         btn.setVisibility(View.GONE);
-        String send_msg = "http://offlinebrowser-web.appspot.com/ExtractServlet?url=http://www.bing.com/search?q="+whatToSend+"&OutputType="+outputMode+"&ExtractorType="+extractorType;
+        String send_msg = "http://offlinebrowser-web.appspot.com/ExtractServlet?url=http://www.bing.com/search?q="+whatToSend+"&OutputType=2&ExtractorType=2";
         SmsManager sms = SmsManager.getDefault();
         sms.sendTextMessage("9947753535", null, send_msg, null, null);
     }
-
+    public static void forwardRequestTest(String whatToSend) throws Exception{
+        SmsManager sms = SmsManager.getDefault();
+        sms.sendTextMessage("9947753535", null, whatToSend, null, null);
+    }
     @Override
     public void onBackPressed() {
 //        Intent goBackIntent = new Intent(this,MainActivity.class);

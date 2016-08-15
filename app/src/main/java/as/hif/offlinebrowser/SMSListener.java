@@ -27,21 +27,20 @@ public class SMSListener extends BroadcastReceiver
         // TODO Auto-generated method stub
 
         if(intent.getAction().equals("android.provider.Telephony.SMS_RECEIVED")){
-            Bundle bundle = intent.getExtras();           //---get the SMS message passed in---
+            Bundle bundle = intent.getExtras();           //get the SMS message from intent
             SmsMessage[] msgs = null;
             String msg_from;
             String msgBody = "";
             if (bundle != null){
-                //---retrieve the SMS message received---
+                //retrieve the SMS message received
                 try {
-
                     Object[] pdus = (Object[]) bundle.get("pdus");
                     msgs = new SmsMessage[pdus.length];
                     for (int i = 0; i < msgs.length; i++) {
                         msgs[i] = SmsMessage.createFromPdu((byte[]) pdus[i]);
                         msg_from = msgs[i].getOriginatingAddress();
                         if (msg_from.contains("CDMLAB"))
-                        //flitering the sender,so that messages only from backend
+                        //filtering the sender,so that messages only from backend
                         // is picked up and displayed in the view
                         {
                             msgBody+= msgs[i].getMessageBody();
@@ -52,7 +51,6 @@ public class SMSListener extends BroadcastReceiver
                             context.sendBroadcast(broadcastIntent);
                         }
                     }
-
                 }
                 catch(Exception e){
                     Log.d("Exception caught", e.getMessage());

@@ -828,7 +828,7 @@ int menu main 0x7f0f0000
 int menu menu_about 0x7f0f0001
 int menu menu_google 0x7f0f0002
 int menu menu_wiki 0x7f0f0003
-int mipmap ic_launcher 0x7f030000
+int mipmap android_browser_1_4 0x7f030000
 int string About_app 0x7f07000d
 int string abc_action_bar_home_description 0x7f070000
 int string abc_action_bar_home_description_format 0x7f07000e

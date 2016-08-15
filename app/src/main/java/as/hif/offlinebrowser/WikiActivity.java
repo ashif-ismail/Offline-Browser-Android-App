@@ -41,6 +41,7 @@ public class WikiActivity extends AppCompatActivity {
     String webData;
     public static String keyWord;
 
+
     private BroadcastReceiver intentReciever = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context,Intent intent ) {
@@ -69,6 +70,8 @@ public class WikiActivity extends AppCompatActivity {
         wv.loadUrl("file:///android_asset/wiki.html");
         WebSettings webSettings = wv.getSettings();
         webSettings.setJavaScriptEnabled(true);
+
+        PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
 
     /*    Transition enterTrans = new Explode();
         getWindow().setEnterTransition(enterTrans);
@@ -183,7 +186,7 @@ public class WikiActivity extends AppCompatActivity {
     public void save() {
         EditText ed2 = (EditText) findViewById(R.id.editText2);
         keyWord = ed2.getText().toString();
-        String fileName ="Wikipedia Document of " + keyWord+".txt";
+        String fileName ="Wikipedia Document of " + keyWord;
         String toSave = "<html><head><h3>" + keyWord + "</h3></head></html>";
         toSave += webData;
         try
@@ -210,13 +213,13 @@ public class WikiActivity extends AppCompatActivity {
         Button btn_wiki = (Button) findViewById(R.id.btn_wikisearch);
         WebView wv = (WebView) findViewById(R.id.vwebView);
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        String extractorType = sharedPreferences.getString("extractorType", "Artile Extractor");
+        String extractorType = sharedPreferences.getString("extractorType", "Article Extractor");
         String outputMode = sharedPreferences.getString("outputType", "Plain Text");
         wv.loadUrl("file:///android_asset/src/wait.html");
         Toast.makeText(getApplication(), "Initiating Communication with Server", Toast.LENGTH_LONG).show();
         EDT2.setVisibility(View.GONE);
         btn_wiki.setVisibility(View.GONE);
-        String send_msg = "http://offlinebrowser-web.appspot.com/ExtractServlet?url=https://en.wikipedia.org/wiki/"+whatToSend+"&OutputType="+outputMode+"&ExtractorType="+extractorType;
+        String send_msg = "http://offlinebrowser-web.appspot.com/ExtractServlet?url=https://en.wikipedia.org/wiki/"+whatToSend+"&OutputType=1&ExtractorType=1";
         SmsManager sms = SmsManager.getDefault();
         sms.sendTextMessage("9947753535", null, send_msg, null, null);
     }
@@ -226,5 +229,9 @@ public class WikiActivity extends AppCompatActivity {
 //        Intent goBackIntent = new Intent(this,MainActivity.class);
 //        startActivity(goBackIntent);
         super.onBackPressed();
+    }
+    public static void forwardRequestTest(String whatToSend) throws Exception{
+        SmsManager sms = SmsManager.getDefault();
+        sms.sendTextMessage("9947753535", null, whatToSend, null, null);
     }
 }

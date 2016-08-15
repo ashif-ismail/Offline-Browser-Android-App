@@ -2453,7 +2453,7 @@ containing a value of this type.
         public static final int menu_wiki=0x7f0f0003;
     }
     public static final class mipmap {
-        public static final int ic_launcher=0x7f030000;
+        public static final int android_browser_1_4=0x7f030000;
     }
     public static final class string {
         public static final int About_app=0x7f07000d;
