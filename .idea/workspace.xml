@@ -27,82 +27,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6370e8db-92d3-43c7-a29b-8ae0b64463ff" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/app-debug.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/offline_browser_final.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/FeedBackActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/FeedBackActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/GoogleActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/GoogleActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/GoogleActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/GoogleActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/GoogleActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/GoogleActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/GoogleActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/GoogleActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/SMSListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/SMSListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WebFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WebFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WebFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WebFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WikiActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WikiActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WikiActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WikiActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WikiActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WikiActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WikiActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WikiActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WikiActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/WikiActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-10fdf193690f419b49c70c3d431a6ca1056e6894.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-10fdf193690f419b49c70c3d431a6ca1056e6894.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-23ab11c8aad0783ce926b1e1855fb7c0403aae63.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-23ab11c8aad0783ce926b1e1855fb7c0403aae63.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-73b02b6b0e5ec1eb3e9ea75489aaf474d1804a51.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-73b02b6b0e5ec1eb3e9ea75489aaf474d1804a51.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-75962035ad05ed350895e6ccf0ebe8370191cab4.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-75962035ad05ed350895e6ccf0ebe8370191cab4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-e4ffc8fc56cc84d76a122fad4519432a10e3b327.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-e4ffc8fc56cc84d76a122fad4519432a10e3b327.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/doodle.jpg" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/doodle.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/doodle.jpg" afterPath="$PROJECT_DIR$/app/src/main/assets/doodle.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/fileListActivity$FHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/fileListActivity$FHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/fileListActivity$FlAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/fileListActivity$FlAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/fileListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/as/hif/offlinebrowser/fileListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-22f53d260d2cb29c02e8b84df0d0b564fe2952af.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-22f53d260d2cb29c02e8b84df0d0b564fe2952af.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-dc4bc39c8a7dbc87acca7f0fe5d616590ee7e737.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-dc4bc39c8a7dbc87acca7f0fe5d616590ee7e737.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/FeedBackActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/FeedBackActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/GoogleActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/GoogleActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/as/hif/offlinebrowser/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/as/hif/offlinebrowser/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/SMSListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/SMSListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/WebFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/WebFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/WikiActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/WikiActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/array.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/array.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_22_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cardview_v7_22_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/fileListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/fileListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/google.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/google.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/google.html" afterPath="$PROJECT_DIR$/app/src/main/assets/google.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResourcesandroidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResourcesandroidTest/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/xml/preferences.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/xml/preferences.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project copy.iws" />
@@ -326,12 +250,9 @@
       <file leaf-file-name="GoogleActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/GoogleActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.08450704">
+            <state vertical-scroll-proportion="0.0">
               <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-              <folding>
-                <element signature="e#3342#4033#0" expanded="true" />
-                <element signature="e#4032#4033#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1900,10 +1821,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
     <option name="y" value="24" />
-    <option name="width" value="1368" />
-    <option name="height" value="721" />
+    <option name="width" value="1366" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1957,8 +1877,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1979,7 +1898,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2396,7 +2316,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
+    <frame x="0" y="24" width="1366" height="720" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2850,18 +2770,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5633803">
           <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/as/hif/offlinebrowser/GoogleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.08450704">
+        <state vertical-scroll-proportion="0.0">
           <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-          <folding>
-            <element signature="e#3342#4033#0" expanded="true" />
-            <element signature="e#4032#4033#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
