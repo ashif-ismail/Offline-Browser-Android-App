@@ -1,4 +1,7 @@
 # Offline-Browser-Android-App
+
+# I have taken down the Service,Please Don't send request through the app.If you need to set it yourself,check Issues page 
+
 SMS Based Browser for Android Devices for Retrieving Web Contents without WiFi/Internet,Done for Final Year Project 2015-2016
 
 Offline Browser Lets tou to browse websites,wiki documents and make a web search even without any data/wifi.My Application makes use
